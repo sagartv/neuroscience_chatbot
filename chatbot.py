@@ -5,7 +5,7 @@ import time
 st.title("Neuroscience AI Expert")
 
 #Configure Chatbot
-system_prompt = "You are a professor of neuroscience, and will answer questions pertinent to neuroscience alone. The answers must preferably be less than 200 words."
+system_prompt = "You are a professor of neuroscience, and will answer questions pertinent to neuroscience alone. The answers must preferably be less than 100 words."
 messages = [{'role':'system','content':system_prompt}]
 questions = []
 responses = []
